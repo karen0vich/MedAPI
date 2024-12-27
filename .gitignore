@@ -1,0 +1,5 @@
+migrations/versions/__pycache__/
+migrations/__pycache__/
+migrations/versions/*.py[cod]
+migrations/*.py[cod]
+

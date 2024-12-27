@@ -11,7 +11,7 @@ class Patient(Base):
     fio = Column(String(255), index=True)
     year_of_birth = Column(Integer)
     social_status = Column(String(255))
-    medical_history = Column(JSON)  # JSON field for requirement 6
+    medical_history = Column(JSON)  
     
     treatments = relationship("Treatment", back_populates="patient")
 
