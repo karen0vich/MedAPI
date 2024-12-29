@@ -57,16 +57,7 @@ Before starting, make sure you have the following installed:
     pip install -r requirements.txt
     ```
 
-4. **Set up the PostgreSQL database**:
-
-    Create a new database in PostgreSQL and configure the `DATABASE_URL` in the `.env` file.
-
-    Example `.env` file:
-    ```bash
-    DATABASE_URL=postgresql://username:password@localhost/medapi_db
-    ```
-
-5. **Initialize the database**:
+4. **Initialize the database**:
 
     Run the following command to create the database schema:
 
@@ -74,7 +65,7 @@ Before starting, make sure you have the following installed:
     alembic upgrade head
     ```
 
-6. **Run the application**:
+5. **Run the application**:
 
     Start the FastAPI server:
 
