@@ -6,4 +6,6 @@ alembic==1.11.1
 pydantic==1.10.9
 python-dotenv==0.21.0
 pgvector==0.2.1
-
+faker
+tqdm 
+psycopg2-binary
